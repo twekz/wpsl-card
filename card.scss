@@ -1,0 +1,59 @@
+// Global settings
+$wpsl_card-z-index-base: 				10 !default;
+$wpsl_card-cover-aspect-ratio: 			5/9 !default;
+
+// Overlay settings
+$wpsl_card-show-overlay: 				true !default;
+$wpsl_card-overlay-color: 				#000 !default;
+$wpsl_card-overlay-transition-duration: 250ms !default;
+$wpsl_card-overlay-transition-easing: 	linear !default;
+$wpsl_card-overlay-default-opacity: 	0 !default;
+$wpsl_card-overlay-hover-opacity: 		0.3 !default;
+
+
+.wpsl_card {
+  &-cover {
+	aspect-ratio: $wpsl_card-cover-aspect-ratio;
+	overflow: hidden;
+	z-index: $wpsl_card-z-index-base;
+
+	@if ($wpsl_card-show-overlay) {
+	  &:before {
+		background: $wpsl_card-overlay-color;
+		content: "";
+		display: block;
+		height: 100%;
+		left: 0;
+		opacity: $wpsl_card-overlay-default-opacity;
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		transition: opacity $wpsl_card-overlay-transition-duration $wpsl_card-overlay-transition-easing;
+		width: 100%;
+		z-index: $wpsl_card-z-index-base + 1;
+	  }
+	}
+
+	&-img {
+	  height: 100%;
+
+	  // Center position on x-axis:
+	  left: 50%;
+	  position: absolute;
+	  transform-origin: 50%;
+	  transform: translateX(-50%);
+	  z-index: $wpsl_card-z-index-base;
+	}
+  }
+
+  @if ($wpsl_card-show-overlay) {
+	&:hover,
+	&:focus,
+	&:active {
+	  .wpsl_card-cover:before {
+		opacity: $wpsl_card-overlay-hover-opacity;
+	  }
+	}
+  }
+}
+

@@ -1,0 +1,13 @@
+.wpsl_card {
+  &,
+  &-cover,
+  &-cover-img {
+	display: block;
+	position: relative;
+  }
+
+  &-cover-img {
+	height: 100%;
+  }
+}
+

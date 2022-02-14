@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AACE;EAGD;EACA;AAFD;AAKE;EACD;AAHD,C","sources":["webpack://card/./src/style.scss"],"sourcesContent":[".wpsl_card {\n  &,\n  &-cover,\n  &-cover-img {\n\tdisplay: block;\n\tposition: relative;\n  }\n\n  &-cover-img {\n\theight: 100%;\n  }\n}\n\n"],"names":[],"sourceRoot":""}

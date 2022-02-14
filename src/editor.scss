@@ -1,0 +1,26 @@
+.wpsl_card--editor {
+  .block-editor-link-control {
+	min-width: unset !important;
+	max-width: 100%;
+
+	.block-editor-link-control__field {
+	  margin-top: 0;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  }
+
+  .block-editor-block-list__block .block-editor-url-input input[type=text],
+  .block-editor-url-input input[type=text],
+  .components-popover .block-editor-url-input input[type=text] {
+	min-width: unset !important;
+	max-width: 100%;
+	border: 1px solid #757575;
+	border-radius: 2px;
+  }
+}
+
+.block-editor__container img.wpsl_card-cover-img {
+  max-width: unset;
+  height: 100%;
+}
