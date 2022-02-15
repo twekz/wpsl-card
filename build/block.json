@@ -2,15 +2,15 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
   "name": "wpsl/card",
-  "version": "0.1.0",
-  "title": "WPSL Card",
+  "version": "1.0.1",
+  "title": "Page Card",
   "category": "widgets",
   "icon": "star-filled",
-  "description": "WPSL generic card block.",
+  "description": "Block lien de page avec image pour Mademoiselle Fée",
   "supports": {
 	  "html": false
   },
-  "textdomain": "wpsl_card",
+  "textdomain": "wpsl-card",
 
   "attributes": {
 	"imageId": {

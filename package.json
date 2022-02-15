@@ -1,7 +1,7 @@
 {
 	"name": "wpsl-card",
 	"private": true,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "WPSL generic card block",
 	"author": "Sam Lem",
 	"license": "GPL-2.0-or-later",

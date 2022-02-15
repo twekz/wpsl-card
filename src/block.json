@@ -2,15 +2,15 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
   "name": "wpsl/card",
-  "version": "0.1.0",
   "title": "WPSL Card",
+  "version": "1.0.1",
   "category": "widgets",
   "icon": "star-filled",
   "description": "WPSL generic card block.",
   "supports": {
 	  "html": false
   },
-  "textdomain": "wpsl_card",
+  "textdomain": "wpsl-card",
 
   "attributes": {
 	"imageId": {
