@@ -85,10 +85,10 @@ export default function Edit({ attributes, className, setAttributes }) {
 				<CardDivider />
 				<CardBody>
 					<BaseControl
-						label="Titre à afficher :"
 						help="Laisser vide pour ne pas afficher de titre."
 					>
 						<TextControl
+							label="Titre à afficher :"
 							value={ attributes.title }
 							onChange={ content => setAttributes({ title: content }) }
 							type="text"
