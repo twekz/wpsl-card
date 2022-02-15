@@ -4,7 +4,7 @@
   "name": "wpsl/card",
   "title": "WPSL Card",
   "version": "1.0.1",
-  "category": "widgets",
+  "category": "media",
   "icon": "star-filled",
   "description": "WPSL generic card block.",
   "supports": {

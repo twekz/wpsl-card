@@ -4,7 +4,7 @@
   "name": "wpsl/card",
   "version": "1.0.1",
   "title": "Page Card",
-  "category": "widgets",
+  "category": "media",
   "icon": "star-filled",
   "description": "Block lien de page avec image pour Mademoiselle Fée",
   "supports": {
